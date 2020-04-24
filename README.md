@@ -16,15 +16,16 @@ number of resource, and the start/end years.
 Single command to build a virtual environment, activate it, and
 generate the results in a file "hxl-datasets.csv":
 
-  $ make run
+    $ make run
 
 Manual steps, in case you don't have make(1):
 
-  $ python3 -m venv venv
-  $ . venv/bin/activate
-  (venv)$ pip install -r requirements.txt
-  (venv)$ python3 list-hxl-datasets.py > hxl-datasets.csv
-  (venv)$ deactivate
+    $ python3 -m venv venv
+    $ . venv/bin/activate
+    (venv)$ pip install -r requirements.txt
+    (venv)$ python3 list-hxl-datasets.py > hxl-datasets.csv
+    (venv)$ deactivate
+    $
 
 # License
 
